@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Hotel Management</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="enter_your_full_name">Enter your full name</string>
+    <string name="enter_your_phone_number">Enter your phone number</string>
+    <string name="enter_your_dob">Enter your Date of Birth</string>
+    <string name="log_in">Log In</string>
+    <string name="are_you_new_traveller">Are you New Traveller? 🤔</string>
+    <string name="sign_up">👉Sign UP👈</string>
+    <string name="enter_you_address">Enter you Address</string>
+    <string name="sign_UP">Sign UP</string>
+    <string name="account_exists">Account Exists</string>
+    <string name="Sign_IN">👉Sign IN👈</string>
+    <string name="enter_your_password">Enter your Password</string>
+</resources>

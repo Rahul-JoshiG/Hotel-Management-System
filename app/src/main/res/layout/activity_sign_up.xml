@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="11dp"
+    tools:context=".SignUp"
+    android:background="@drawable/background1"
+    android:id="@+id/signUpPage">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome Traveller 🙂"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/welcometext"
+        android:padding="8dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/input1"
+        android:layout_below="@+id/welcometext"
+        android:layout_marginTop="11dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_your_full_name"
+            android:inputType="text"
+            tools:ignore="TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/input1"
+        android:id="@+id/input2"
+        android:layout_marginTop="11dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_your_phone_number"
+            android:inputType="phone"
+            tools:ignore="TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/input2"
+        android:id="@+id/input3"
+        android:layout_marginTop="11dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/dob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_your_dob"
+            android:inputType="date"
+            android:textColorHint="#546E7A"
+            tools:ignore="DuplicateSpeakableTextCheck,TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/input3"
+        android:id="@+id/input4"
+        android:layout_marginTop="11dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_you_address"
+            android:inputType="text"
+            android:textColorHint="#546E7A"
+            tools:ignore="TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        style="@style/ThemeOverlay.Material3.Button.TonalButton"
+        android:layout_below="@+id/input4"
+        android:layout_marginTop="21dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/sign_UP"
+        android:textSize="22sp"
+        android:id="@+id/signup"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/account_exists"
+        android:layout_below="@+id/signup"
+        android:layout_marginTop="11dp"
+        android:id="@+id/are_you"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Sign_IN"
+        android:id="@+id/login"
+        android:layout_below="@+id/are_you"
+        android:layout_marginTop="11dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#0308FF"
+        android:pointerIcon="hand"/>
+
+
+</RelativeLayout>
